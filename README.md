@@ -15,6 +15,16 @@ This assignment focuses on MySQL, and exploring its implementation on leading cl
     -  <img width="266" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/11b0a323-1906-4226-bd41-970d4177f207"> Choose **Sandbox**
     -  <img width="174" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/d91a2ddd-36dc-41f1-ac0b-362164de78b3"> At **Customize your instance**, go to **Machine configuration** and choose **Shared core; 1 vCPU, 0.614 GB**
     -  At **Connections**, choose **Public IP** and **Add a network**; Name the network as **Allow All** and set it to **0.0.0.0/0**. Then press **Create Instance**
+  
+#### Azure:
+ - Log in to Azure with Stony Brook email. Type in the search bar **Azure Databases for MySQL**. Once you click on it, click on **Create**.
+ - Select **Flexible server**
+ - Make sure the subscription is **Azure for Students**. Then create a new resource group: I named mine **helen-wk4a-assignment**
+ - Create a server name: **hha504-wk4a-assignment**. Make sure the **Compute + Storage** section shows this: <img width="164" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/2c9681bd-5877-4a28-972d-98d15b3e8c0c">
+ - Create an **Admin username** and set a password. Click **Next: Networking >**
+ - Make sure the connectivity method is at **Public access (allowed IP addresses) and Private endpoint**.
+ - Under **Firewall rules**, click on **Allow public access from any Azure service within Azure to this server**. Click on **+Add 0.0.0.0 - 255.255.255.255** <img width="95" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/e6d01285-8798-4ce0-9c78-c578c32fc698">
+  - Then press **Create**
 
 
 
