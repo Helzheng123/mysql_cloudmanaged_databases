@@ -20,10 +20,10 @@ This assignment focuses on MySQL, and exploring its implementation on leading cl
  - Log in to Azure with Stony Brook email. Type in the search bar **Azure Databases for MySQL**. Once you click on it, click on **Create**.
  - Select **Flexible server**
  - Make sure the subscription is **Azure for Students**. Then create a new resource group: I named mine **helen-wk4a-assignment**
- - Create a server name: **hha504-wk4a-assignment**. Make sure the **Compute + Storage** section shows this: <img width="164" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/2c9681bd-5877-4a28-972d-98d15b3e8c0c">
+ - Create a server name: **hha504-wk4a-assignment**. Make sure the **Compute + Storage** section shows this: <img width="200" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/2c9681bd-5877-4a28-972d-98d15b3e8c0c">
  - Create an **Admin username** and set a password. Click **Next: Networking >**
  - Make sure the connectivity method is at **Public access (allowed IP addresses) and Private endpoint**.
- - Under **Firewall rules**, click on **Allow public access from any Azure service within Azure to this server**. Click on **+Add 0.0.0.0 - 255.255.255.255** <img width="95" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/e6d01285-8798-4ce0-9c78-c578c32fc698">
+ - Under **Firewall rules**, click on **Allow public access from any Azure service within Azure to this server**. Click on **+Add 0.0.0.0 - 255.255.255.255** <img width="150" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/e6d01285-8798-4ce0-9c78-c578c32fc698">
   - Then press **Create**
 
 ## MySQL Workbench for Database Interaction:
