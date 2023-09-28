@@ -26,7 +26,8 @@ This assignment focuses on MySQL, and exploring its implementation on leading cl
  - Under **Firewall rules**, click on **Allow public access from any Azure service within Azure to this server**. Click on **+Add 0.0.0.0 - 255.255.255.255** <img width="95" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/e6d01285-8798-4ce0-9c78-c578c32fc698">
   - Then press **Create**
 
-
+## MySQL Workbench for Database Interaction:
+For GCP, it was relatively easy since we had gone over the process of connecting our instance with the MySQL Workbench. For Azure, it was a little more work to create the server, however, I followed this [guide](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/connect-workbench) to figure out how to connect my server with MySQL Workbench. The only difference between Azure and GCP when creating the connection was the **Hostname** and **Username** options. For the **Hostname**, I copied and pasted my **Server Name** (example: **mydemoserver.mysql.database.azure.com**). For the **Username**, I put in the **server admin username** that I created when I was creating the **Azure Database for MySQL**. 
 
 
 
