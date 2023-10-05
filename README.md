@@ -36,3 +36,10 @@ After connecting each service to MySQL Workbench, I successfully created an Enti
 Screenshots of each SQL command executed and their outcomes are shown in the [GCP](https://github.com/Helzheng123/mysql_cloudmanaged_databases/tree/main/GCP) folder (it was the exact same for Azure so I didn't upload the screenshots). 
 
 Screenshots of a successfully run command are shown in each folder for each connection. 
+
+## Optional Portion of the Assignment: Python Script for Database Interaction:
+I was unable to successfully run the [python script](https://github.com/hantswilliams/HHA_504_2023/blob/main/WK4/code/python_connectionExample.py) for my tables as I kept running into an error on connection. I attempted to connect the database but I ran into an error shown below:
+
+<img width="700" alt="image" src="https://github.com/Helzheng123/mysql_cloudmanaged_databases/assets/123939070/19edefbc-afa5-4bdc-b0d8-b06187db2bbc">
+
+Although it was unsuccessful, I left the [python script](https://github.com/Helzheng123/mysql_cloudmanaged_databases/blob/main/script.py) in this repository. 
